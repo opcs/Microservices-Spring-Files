@@ -1,0 +1,7 @@
+demo\controller\HelloController.class
+demo\controller\TeamController.class
+demo\Application.class
+demo\domain\Team.class
+demo\domain\Player.class
+demo\repository\TeamRepository.class
+demo\repository\PlayerRepository.class

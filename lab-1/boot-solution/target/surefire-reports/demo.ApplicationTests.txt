@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: demo.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 17.563 s <<< FAILURE! - in demo.ApplicationTests
+teamRetrieve(demo.ApplicationTests)  Time elapsed: 0.834 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$.name" expected:<Globetrotters> but was:<India>
+	at demo.ApplicationTests.teamRetrieve(ApplicationTests.java:65)
+
+teamsRetrieve(demo.ApplicationTests)  Time elapsed: 0.349 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "$[0].name" expected:<Globetrotters> but was:<India>
+	at demo.ApplicationTests.teamsRetrieve(ApplicationTests.java:52)
+

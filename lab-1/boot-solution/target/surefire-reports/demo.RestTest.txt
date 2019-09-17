@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: demo.RestTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.31 s <<< FAILURE! - in demo.RestTest
+testRestfulGet(demo.RestTest)  Time elapsed: 0.117 s  <<< FAILURE!
+java.lang.AssertionError: No matching value at JSON path "$..[?(@.location=='Harlem')].players[?(@.name=='Buckets')].position"
+	at demo.RestTest.testRestfulGet(RestTest.java:44)
+
