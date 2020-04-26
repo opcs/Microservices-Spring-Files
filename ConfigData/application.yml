@@ -1,14 +1,15 @@
 ---
-# Items that apply to ALL profiles:
+# Items that apply to ALL profiles and lookup prop by all clients to register with eureka server:
+# act as central repository for managing the configuration properties
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8010/eureka/
+      defaultZone: http://localhost:8010/eureka/          # eureka server URL
 
 ---
 spring:
   profiles: subject
-words: I,You,He,She,It
+words: Config_I,Config_You,Config_He,Config_She,Config_It
   
 ---
 spring:
@@ -18,7 +19,7 @@ words: ran,knew,had,saw,bought
 ---
 spring:
   profiles: article
-words: a,the
+words: config_A,config_The
 
 ---
 spring:
